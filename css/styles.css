@@ -1,0 +1,26 @@
+.topdiv{
+    position: relative; 
+
+}
+.row-1{
+    position: absolute;
+    top:55px;
+    width: 100%;
+    margin: 0;
+}
+.smart-1{
+margin-left: 18%;   
+width: 70%;
+}
+
+@media (max-width: 500px){
+
+.row-1{
+top: 6px;
+}
+.smart-1{
+width:29% ;
+margin-left:39%;
+}
+
+}
