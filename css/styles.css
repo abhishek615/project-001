@@ -37,6 +37,17 @@ width: 70%;
 .feature-img{
     width: 50%;
 }
+.seperator{
+    margin-top: 3%;
+    border-style: none;
+    border: 4px dotted;
+    size: 2;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    width: 5%;
+    
+}
 
 .feature-h3{
     margin: 9%;
@@ -85,7 +96,7 @@ margin-left:39%;
 
 #seperator{
     border-style: none;
-    margin-top: 52%;
+    margin-top: 55%;
     border: 4px dotted;
     size: 2;
     border-left-width: 0;
@@ -93,7 +104,15 @@ margin-left:39%;
     border-bottom-width: 0;
     width: 8%;
 }
-
+.seperator{
+    border-style: none;
+    border: 4px dotted;
+    size: 2;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    width: 8%;
+}
 /*----------------------------------------------------SEPERATOR HR-----------------------------------------------------------------------------*?
 
 
