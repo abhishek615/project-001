@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -14,7 +17,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/flat-map-compass-background/221772-P1X0W9-146.jpg">
+  <link rel="icon" href="images/myfavicon.ico">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>backpacker</title>
@@ -23,15 +26,15 @@
 <body style="background-color: #f6f7d4;">
 
   <!--------------------------------------------------NAVBAR STARTS HERE---------------------------------------------------------------------------->
-  
+
 
   <!---------------------------------------------------NAVBAR ENDS HERE------------------------------------------------------------------------------>
 
 
   <!----------------------------------------------------TOP-CONTAINER-DIV STARTS HERE--------------------------------------------------------------->
   <nav class="navbar  navbar-expand-lg navbar-dark bg-success ">
-    <a class="navbar-brand" href="#">
-      <img src="images/flat-map-compass-background/221772-P1X0W9-146.jpg" width="30" height="30"
+    <a style="font-family: 'Ubuntu', sans-serif;" class="navbar-brand" href="#">
+      <img style="border-radius:50%;" src="images/flat-map-compass-background/221772-P1X0W9-146.jpg" width="30" height="30"
         class="d-inline-block align-top" alt="" loading="lazy">
       backpacker</a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -60,14 +63,14 @@
   </nav>
   <div class="conatiner-fluid topdiv">
     <img style="width: 100%;" src="images/optimized.jpg">
-    <div class="row row-1">
+    <div   class="row row-1">
       <div class="col-lg-4 col-md-4 col-sm "></div>
       <div class="col-lg-4 col-md-4 col-sm ">
         <img class="smartphone" src="images/smarthphone.png"></div>
       <div id="slogan" class="col-lg-4 col-md-4 col-sm ">
-        <h2>Share your Adventures.</h2>
-        <button id="play-button"><img src="images/google-play-badge.png" style="width: 100%;"></button>
-        <button type="button" class="btn btn-primary">Know more</buttton>
+        <h2 id="slogan-txt">Share your Adventures.</h2>
+        <button class="btn-lg" id="play-button"><img src="images/google-play-badge.png" style="width: 100%;"></button>
+        <button type="button" class="btn-sm btn btn-primary">Know more</buttton>
       </div>
     </div>
 
@@ -119,10 +122,10 @@
 
   <div class="conatiner-fluid overlay" style="padding: 2%;">
     <div>
-      <h1>Write stories about your adventure trips.</h1>
+      <h1 style="color: white;" >Write stories about your adventure trips.</h1>
       <!--- style="background-size:cover;background-image: url(images/my-story-2.jpg);height: 900px;margin:4% auto; ">-->
       <img src="images/my-story-2.jpg" style="width: 100%; padding: 1%;">
-      <h2>My adventure story</h2>
+      <h2 style="color: white;">My adventure story</h2>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
         a
@@ -141,19 +144,19 @@
   <!----------------------------------------------------SEPERATOR HR--------------------------------------------------------------------------->
 
 
-
+<!--
   <div class="conatiner-fluid" style="opacity:0.5;">
     <h2>Get in Touch</h2>
     <form>
-      <textarea >your message here</textarea>
+      <textarea>your message here</textarea>
       <label>Name</label>
-      <input type="text" value="name" required >
+      <input type="text" value="name" required>
       <label>Email</label>
-      <input type="email" value="email" require >
-      <button type="submit" >Send</button>
-      <button type="reset" >Reset</button>
+      <input type="email" value="email" require>
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
     </form>
-  </div>
+  </div>-->
 </body>
 
 </html>
