@@ -34,7 +34,6 @@ width: 70%;
     width: 5%;
     
 }
-
 .feature-img{
     width: 50%;
 }
@@ -54,18 +53,14 @@ width: 70%;
     margin: 6%;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*----------------------------------------------------APP FEATURE DESCRIPTION STYLING ENDS HERE ----------------------------------------------*/
 
+/*-----------------------------------------------------MY ADVENTURTE-STORY STYLING SECTION STARTS HERE---------------------------------------------------*/
+.overlay{
+        background-color: #00000040;
+        margin:4% 1%;
+}
+/*-----------------------------------------------------MY ADVENTURTE-STORY STYLING SECTION ENDS HERE---------------------------------------------------*/
 
 
 
