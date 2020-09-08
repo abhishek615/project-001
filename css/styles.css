@@ -1,5 +1,12 @@
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
+#play-button{
 
+    width: 40%;
+    padding: 0;
+    border-style: none;
+    border-radius: 10%;
+    
+}
 .topdiv{
     position: relative; 
 
