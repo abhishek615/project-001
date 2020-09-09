@@ -718,11 +718,11 @@ top: 13px;
 .smartphone{
 width:28% ;
 margin-left:39%;
-transform: rotate(90deg);
+transform: rotate(00deg);
 z-index:1
 }
 .resp{
-    height:205px;
+    height:210px;
 }
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING ENDS HERE-------------------------------------------------------*/
 
