@@ -5,12 +5,20 @@ body{
 /*---------------------------------------------------------------TEAM INTRO styling STARTS HERE-------------------------------------------------------------------------------*/
 
 .maindiv{
-    padding: 2%
+    padding: 2%;
+    text-align: center;
+    
 }
 .deck{
     position: relative;
     z-index: -1;
-    padding: 3% ;
+    padding: 6% ;
+    
+}
+.teamimg{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
 
@@ -622,8 +630,8 @@ select.form-control[multiple] {
   
 }
 .smartphone{
-    position: relative;
-    z-index:0;
+ position: relative;
+ z-index:0;
 margin-left: 18%;   
 width: 70%;
 
@@ -672,6 +680,8 @@ color:#8a8484
 /*----------------------------------------------------SEPERATOR HR-----------------------------------------------------------------------------*/
 
 /*----------------------------------------------------APP FEATURE DESCRIPTION STYLING STARTS HERE ----------------------------------------------*/
+
+
 
 .features{
     z-index: 1;
