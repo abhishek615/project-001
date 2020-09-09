@@ -1,18 +1,22 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/*-----------------------------footer--------------------------*/
+.social{
+    text-align: center;
 
+}
 /*---------------------------------------------------------------TEAM INTRO styling STARTS HERE-------------------------------------------------------------------------------*/
 
 .maindiv{
+    z-index: 2;
     padding: 2%;
-    text-align: center;
     
 }
 .deck{
     position: relative;
-    z-index: -1;
-    padding: 6% ;
+    z-index: -2;
+    padding: 4% ;
     
 }
 .teamimg{
@@ -20,7 +24,6 @@ body{
     margin-left: 20%;
     margin-top: 5%;
 }
-
 
 
 
@@ -710,14 +713,16 @@ color:#8a8484
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
 .row-1{
-top: 6px;
+top: 13px;
 }
 .smartphone{
-width:29% ;
+width:28% ;
 margin-left:39%;
-transform: rotate(90deg);
+transform: rotate(00deg);
 }
-
+.resp{
+    height:195px;
+}
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING ENDS HERE-------------------------------------------------------*/
 
 /*----------------------------------------------------SEPERATOR HR---------------------------------------------------------------------------*/
@@ -762,7 +767,14 @@ transform: rotate(90deg);
 
 /*----------------------------------------------------APP FEATURE DESCRIPTION STYLING ENDS  HERE ----------------------------------------------*/
 
+/*-----------------------------TEAM SECTION--------------------------*/
 
+.maindiv{
+    padding:9%;
+}
+
+
+/*-----------------------------TEAM SECTION-------------------------*/
 
 
 }
