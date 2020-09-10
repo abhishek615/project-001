@@ -1,23 +1,25 @@
 body{
+ 
     font-family: 'Montserrat', sans-serif;
+    margin-right:0;
 }
 /*-----------------------------footer--------------------------*/
 .social{
-    text-align: center;
-
+    text-align: right;
 }
 /*---------------------------------------------------------------TEAM INTRO styling STARTS HERE-------------------------------------------------------------------------------*/
 
 .maindiv{
     z-index: 2;
-    padding: 2%;
+    
     
 }
 .deck{
     position: relative;
     z-index: -2;
-    padding: 4% ;
-    
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 6%;
 }
 .teamimg{
     width: 60%;
@@ -25,8 +27,11 @@ body{
     margin-top: 5%;
 }
 
-
-
+.teamimg{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
 
 
 
@@ -614,7 +619,7 @@ select.form-control[multiple] {
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 #play-button{
 
-    width: 50%;
+    width: 56%;
     padding: 0;
     border-style: none;
     border-radius: 10%;
@@ -713,7 +718,7 @@ color:#8a8484
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
 .row-1{
-top: 13px;
+top: 8px;
 }
 .smartphone{
 width:28% ;
@@ -721,7 +726,7 @@ margin-left:39%;
 transform: rotate(00deg);
 }
 .resp{
-    height:195px;
+    height:100%;
 }
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING ENDS HERE-------------------------------------------------------*/
 
@@ -769,9 +774,6 @@ transform: rotate(00deg);
 
 /*-----------------------------TEAM SECTION--------------------------*/
 
-.maindiv{
-    padding:9%;
-}
 
 
 /*-----------------------------TEAM SECTION-------------------------*/
