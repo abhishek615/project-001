@@ -639,7 +639,7 @@ select.form-control[multiple] {
 }
 .smartphone{
  position: relative;
- z-index:0;
+ z-index:1;
 margin-left: 18%;   
 width: 70%;
 
@@ -724,9 +724,14 @@ top: 8px;
 width:28% ;
 margin-left:39%;
 transform: rotate(00deg);
+z-index:1
 }
 .resp{
+<<<<<<< HEAD
     height:100%;
+=======
+    height:210px;
+>>>>>>> ced523759e06af75509a71624e9a4fa0b724bb7b
 }
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING ENDS HERE-------------------------------------------------------*/
 
