@@ -3,6 +3,27 @@ body{
     font-family: 'Montserrat', sans-serif;
   
 }
+
+/*---------------------------------------------------------ABout us Styling starts here ----------------------------------------------------------*/
+
+.abouth1{
+    top: 50;color: white;padding-top: 7%;padding-left: 3%;z-index: 2;position: absolute;z-index:4;
+}
+.aboutp{
+    color:white;line-height: 2;position: absolute;padding-top: 15%;padding-right: 2%;padding-left: 2%;z-index: 2;
+}
+.aboutoverlay{
+    padding:0;width: 100%;height:100%;top:0;left:0;background-color:#00000038;overflow: hidden;margin-bottom:0px;
+}
+.aboutimg{
+    background-image: url(/images/about4.jpg);background-size: cover;width: 100%;padding: 25%;position:relative;z-index: -3;
+}
+
+
+
+/*---------------------------------------------------------ABout us Styling ends here ----------------------------------------------------------*/
+
+
 /*-----------------------------footer--------------------------*/
 .social{
     text-align: center;
@@ -757,7 +778,29 @@ z-index:1
     border-bottom-width: 0;
     width: 8%;
 }
-/*----------------------------------------------------SEPERATOR HR-----------------------------------------------------------------------------*?
+/*----------------------------------------------------SEPERATOR HR-----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------ABout us Styling starts here ----------------------------------------------------------*/
+
+.abouth1{
+    top: 50;color: white;padding-top: 13%;padding-left: 3%;z-index: 2;position: absolute;z-index:4;
+}
+.aboutp{
+    color:white;line-height: 2;position: absolute;padding-top: 34%;padding-right: 2%;padding-left: 2%;z-index: 2;
+}
+.aboutoverlay{
+    padding:0;width: 100%;height:100%;top:0;left:0;background-color:#00000038;overflow: hidden;margin-bottom:0px;
+}
+.aboutimg{
+    background-image: url(/images/about4.jpg);background-size: cover;width: 100%;padding: 104%;position:relative;z-index: -3;
+}
+
+
+
+/*---------------------------------------------------------ABout us Styling ends here ----------------------------------------------------------*/
+
+
+
 
 
 /*----------------------------------------------------APP FEATURE DESCRIPTION STYLING STARTS HERE ----------------------------------------------*/
