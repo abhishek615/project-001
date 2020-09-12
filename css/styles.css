@@ -638,13 +638,23 @@ select.form-control[multiple] {
 
 
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
+
+.knowmore{
+ top: 45%;
+ width: 25%;
+ position: absolute;
+ margin-left: 68%;
+}
+
+
+
+
 #play-button{
 
     width: 56%;
     padding: 0;
     border-style: none;
-    border-radius: 10%;
-    
+    border-radius: 10%;  
 }
 .topdiv{
     position: relative;
@@ -752,12 +762,36 @@ z-index:1
 }
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING ENDS HERE-------------------------------------------------------*/
 
+/*---------------------------------------------------Top knowmore section styling----------------------------------------------------------*/
+
+.knowmore{
+    top: 57%;
+    width: 76%;
+    position: absolute;
+    margin-left: 5%;
+    padding: 1%;
+    /* margin-top: 0%; */
+    padding-top: 12%;
+    /* padding-bottom: 32%; */
+}
+
+
+
+
+
+/*---------------------------------------------------Top knowmore section styling----------------------------------------------------------*/
+
+
+
+
+
+
 /*----------------------------------------------------SEPERATOR HR---------------------------------------------------------------------------*/
 
 
 #seperator{
     border-style: none;
-    margin-top: 55%;
+    margin-top: 61%;
     border: 4px dotted;
     size: 2;
     border-left-width: 0;
