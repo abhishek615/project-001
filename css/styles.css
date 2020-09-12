@@ -6,10 +6,10 @@ body{
 
 .outerdiv{
     position: relative;
-    top: 265px;
-   right: 90px;
+    top: 243px;
+   right: 12px;
     position: relative;
-    margin-left:6%;
+ 
     
 }
 
@@ -650,20 +650,10 @@ select.form-control[multiple] {
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
 .knowmore{
- /*top: 45%;
+ top: 45%;
  width: 25%;
  position: absolute;
  margin-left: 68%;
-*
- top: 45%;
- width: 30%;
- position: absolute;
- margin-left: 71%;
-}*/
-
-
-    position: absolute;
-    margin-left: 73%;
 
 }
 
@@ -795,24 +785,12 @@ z-index:1
 
 .knowmore{
 
-    top: 51%;
-    width: 76%;
-    position: absolute;
-    margin-left: 9%;
-    padding: 1%;
-    /* margin-top: 0%; */
-    padding-top: 33%;
-
-/*
-    top: 51%;
+    top: 57%;
     width: 76%;
     position: absolute;
     margin-left: 5%;
     padding: 1%;
-    /* margin-top: 0%; */
     padding-top: 12%;
-    /* padding-bottom: 32%;
-}*/
 }
 
 
