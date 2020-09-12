@@ -4,6 +4,16 @@ body{
   
 }
 
+.outerdiv{
+    position: relative;
+    top: 265px;
+   right: 90px;
+    position: relative;
+    margin-left:6%;
+    
+}
+
+
 /*---------------------------------------------------------ABout us Styling starts here ----------------------------------------------------------*/
 
 .abouth1{
@@ -640,10 +650,21 @@ select.form-control[multiple] {
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
 .knowmore{
- top: 45%;
+ /*top: 45%;
  width: 25%;
  position: absolute;
  margin-left: 68%;
+*
+ top: 45%;
+ width: 30%;
+ position: absolute;
+ margin-left: 71%;
+}*/
+
+
+    position: absolute;
+    margin-left: 73%;
+
 }
 
 
@@ -655,6 +676,7 @@ select.form-control[multiple] {
     padding: 0;
     border-style: none;
     border-radius: 10%;  
+    padding-bottom: 2%;
 }
 .topdiv{
     position: relative;
@@ -748,6 +770,13 @@ color:#8a8484
 
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
+.outerdiv{
+    position: relative;
+    top: 281px;
+    right: 31px;
+}
+
+
 .row-1{
 top: 8px;
 }
@@ -765,14 +794,25 @@ z-index:1
 /*---------------------------------------------------Top knowmore section styling----------------------------------------------------------*/
 
 .knowmore{
-    top: 57%;
+
+    top: 51%;
+    width: 76%;
+    position: absolute;
+    margin-left: 9%;
+    padding: 1%;
+    /* margin-top: 0%; */
+    padding-top: 33%;
+
+/*
+    top: 51%;
     width: 76%;
     position: absolute;
     margin-left: 5%;
     padding: 1%;
     /* margin-top: 0%; */
     padding-top: 12%;
-    /* padding-bottom: 32%; */
+    /* padding-bottom: 32%;
+}*/
 }
 
 
@@ -858,3 +898,24 @@ z-index:1
 
 
 }
+
+
+/*------------------------------------------------------MEDIA SCREEN QUERRIES STARTS HERE----------------------------------------------------------
+
+@media (max-width: 800px){
+
+    -------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------
+.outerdiv{
+
+
+    
+    position: relative;
+    top: 221px;
+
+    position: relative;
+    top: 200px;
+    /* margin-left: -5%; 
+    right: 35px;
+}
+}
+}*/
