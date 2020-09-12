@@ -16,7 +16,7 @@ body{
     padding:0;width: 100%;height:100%;top:0;left:0;background-color:#00000038;overflow: hidden;margin-bottom:0px;
 }
 .aboutimg{
-    background-image: url(/images/changed.png);background-size: cover;width: 100%;padding: 25%;position:relative;z-index: -3;
+background-size: cover;width: 100%;padding: 25%;position:relative;z-index: -3;
 }
 
 
@@ -748,11 +748,7 @@ transform: rotate(00deg);
 z-index:1
 }
 .resp{
-<<<<<<< HEAD
     height:100%;
-=======
-    height:210px;
->>>>>>> ced523759e06af75509a71624e9a4fa0b724bb7b
 }
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING ENDS HERE-------------------------------------------------------*/
 
