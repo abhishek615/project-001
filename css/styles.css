@@ -662,11 +662,11 @@ select.form-control[multiple] {
 
 #play-button{
 
-    width: 56%;
-    padding: 0;
+    width: 51%;
+    padding: 1%;
     border-style: none;
     border-radius: 10%;  
-    padding-bottom: 2%;
+   
 }
 .topdiv{
     position: relative;
@@ -682,7 +682,7 @@ select.form-control[multiple] {
 }
 .smartphone{
  position: relative;
- z-index:1;
+ z-index:0;
 margin-left: 18%;   
 width: 70%;
 
@@ -760,6 +760,12 @@ color:#8a8484
 
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
+.emptycol{
+    padding: 23%;
+}
+
+
+
 .outerdiv{
     position: relative;
     top: 281px;
@@ -771,9 +777,10 @@ color:#8a8484
 top: 8px;
 }
 .smartphone{
+    display: none;
 width:28% ;
 margin-left:39%;
-transform: rotate(00deg);
+transform: rotate(90deg);
 z-index:1
 }
 .resp{
@@ -809,7 +816,7 @@ z-index:1
 
 #seperator{
     border-style: none;
-    margin-top: 61%;
+    margin-top: 8%;
     border: 4px dotted;
     size: 2;
     border-left-width: 0;
