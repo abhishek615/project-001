@@ -64,30 +64,6 @@ background-size: cover;width: 100%;padding: 25%;position:relative;z-index: -3;
     margin-top: 5%;
 }
 
-#btnrow{
-    position: absolute;
-    width: 100%;
-}
-
-#btnoutdiv{
-    position: relative;
-    top: 560px;
-}
-
-#btn1{
-    padding: 0 8%;
-    
-}
-
-#btn2{
-    padding: 0 4%;
-  
-}
-
-#btn3{
- padding: 0;       
-   
-}
 
 
 
@@ -871,32 +847,6 @@ z-index:1
 
 /*---------------------------------------------------------ABout us Styling ends here ----------------------------------------------------------*/
 
-#btnrow{
-    position: absolute;
-    width: 100%;
-}
-
-#btnoutdiv{
-    position: relative;
-    top: 386px;
-}
-
-#btn1{
-    
-    
-}
-
-#btn2{
-   padding-top: 114%;
-   padding-left: 9%;
-}
-
-#btn3{
-   padding-top: 120%;
-   padding-left: 10%;
-}
-
-}
 
 
 
@@ -935,37 +885,4 @@ z-index:1
 
 /*------------------------------------------------------MEDIA SCREEN QUERRIES STARTS HERE----------------------------------------------------------*/
 
-@media (max-width: 768px){
-
-/*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
-
-#btnrow{
-    position: absolute;
-    width: 100%;
-}
-
-#btnoutdiv{
-    position: relative;
-    top: 394px;
-}
-
-#btn1{
-    padding: 0 9%;
-    
-}
-
-#btn2{
-    padding: 0 5%;
-   padding-top: 2%;
-}
-
-#btn3{
-    padding: 1%;
-   padding-top: 0;
-}
-
-}
-
-
-/*------------------------------------------------------MEDIA SCREEN QUERRIES STARTS HERE----------------------------------------------------------*/
 
