@@ -66,6 +66,9 @@ background-size: cover;width: 100%;padding: 25%;position:relative;z-index: -3;
     margin-top: 5%;
 }
 
+.teampadding{
+    padding: 5%;
+}
 
 
 
@@ -894,6 +897,9 @@ z-index:1
 
 /*-----------------------------TEAM SECTION--------------------------*/
 
+.teampadding{
+    padding: 8%;
+}
 
 
 /*-----------------------------TEAM SECTION-------------------------*/
