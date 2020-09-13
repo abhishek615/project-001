@@ -649,6 +649,11 @@ select.form-control[multiple] {
 
 /*-------------------------------------------------TOP-CONTAINER-DIV STYLING STARTS HERE-------------------------------------------------------*/
 
+.intro{
+    width: 100%;height: 100%;background-size: cover;margin: 0;padding: 8%;z-index: -3;
+}
+
+
 .knowmore{
  top: 45%;
  width: 25%;
