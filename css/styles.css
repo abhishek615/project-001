@@ -4,6 +4,8 @@ body{
   
 }
 
+
+
 .outerdiv{
     position: relative;
     top: 243px;
@@ -713,10 +715,10 @@ color:#8a8484
     border-right-width: 0;
     border-bottom-width: 0;
     width: 5%;
-    
+    color:#4d4949;
 }
 .feature-img{
-    width: 50%;
+    width: 100%;
 }
 .seperator{
     margin-top: 3%;
@@ -727,11 +729,12 @@ color:#8a8484
     border-right-width: 0;
     border-bottom-width: 0;
     width: 5%;
-    
+    color:#4d4949;
 }
 
 .feature-h3{
     margin: 9%;
+    color: #28df99;
 }
 /*----------------------------------------------------SEPERATOR HR-----------------------------------------------------------------------------*/
 
@@ -746,7 +749,14 @@ color:#8a8484
 }
 .feature-p{
     margin: 6%;
+    line-height: 2;
+    color:#7e7878
 }
+
+.adv-p{
+    line-height: 2;
+}
+
 
 /*----------------------------------------------------APP FEATURE DESCRIPTION STYLING ENDS HERE ----------------------------------------------*/
 
